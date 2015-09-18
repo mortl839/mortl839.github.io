@@ -1,0 +1,24 @@
+ .boxed {
+     background-color:white;
+     }
+.boxed :hover
+	{
+	    background-color:red;
+	}
+ .boxed2 { background-color:red;
+}
+.boxed2 :hover
+	{
+	    background-color:white;
+	}
+ .boxed3 { background-color:blue;
+}.boxed3 :hover
+	{
+	    background-color:yellow;
+	}
+ .boxed4 { 
+  background-color: yellow;
+}.boxed4 :hover
+	{
+	    background-color:blue;
+	}
