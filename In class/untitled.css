@@ -1,0 +1,30 @@
+body {
+background-color: pink;
+}
+.wrapper {
+    width: 400px;
+    margin: 0 auto;
+}  
+
+.column { 
+    width: 200px;
+    background-color: lime;
+    padding: 10px;
+}
+
+mark {
+    display: inline-block;
+} 
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    font-size: 48px;
+    color: white;
+    padding: 20px;
+    padding-top: 100px;
+    overflow: auto;
+    border: 10px dashed red;
+    margin: 100px;
+}
