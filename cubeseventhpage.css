@@ -16,6 +16,47 @@ top: 600px;
 left: 600px;
 }
 
+.redo {
+    width: 20px;
+    height:20px;
+    background-color:gray;
+    position: absolute;
+    top:80px;
+    left:1000px;
+}
+
+.buttonside1 {
+    width: 2px;
+    background-color:black;
+    height: 20px;
+    position:absolute;
+    top:300px ;
+    left: 1300px;
+}
+.buttonside2 {
+    width: 2px;
+    background-color:black;
+    height: 20px;
+    position:absolute;
+    top:306px ;
+    left: 1308px;
+           -ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Safari */
+    transform: rotate(70deg);
+}
+
+.buttonside3 {
+    width: 2px;
+    background-color:black;
+    height: 20px;
+    position:absolute;
+    top:297px ;
+    left: 1309px;
+           -ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Safari */
+    transform: rotate(-50deg);
+}
+
 .fronttop {
 width: 50px;
 background-color: black;
