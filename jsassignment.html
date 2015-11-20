@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <head>
+        <title>sketch.js &raquo; Basic Example</title>
+        <link rel="stylesheet" href="jsassignment.css">
+        <style type="text/css">
+            html, body {
+                background: green;
+            }
+        </style>
+    </head>
+    <body>
+
+            </hgrou
+            </nav>
+        </header>
+        <script src="jsassignment.js"></script>
+        <script>
+        var COLOURS = [ 'pink', 'pink', 'pink', 'pink', 'pink' ];
+        var radius = 0;
+        Sketch.create({
+            container: document.getElementById( 'container' ),
+            autoclear: false,
+            setup: function() {
+                console.log( 'setup' );
+            },
+            update: function() {
+                radius = 2 + abs( sin( this.millis * 0.003 ) * 50 );
+            },
+            // Event handlers
+            keydown: function() {
+                if ( this.keys.C ) this.clear();
+            },
+          
+            touchmove: function() {
+                for ( var i = this.touches.length - 1, touch; i >= 0; i-- ) {
+                    touch = this.touches[i];
+                    this.lineCap = 'round';
+                    this.lineJoin = 'round';
+                    this.fillStyle = this.strokeStyle = COLOURS[ i % COLOURS.length ];
+                    this.lineWidth = radius;
+                    this.beginPath();
+                    this.moveTo( touch.ox, touch.oy );
+                    this.lineTo( touch.x, touch.y );
+                    this.stroke();
+                }
+            }
+        });
+        
+        </script>
+    </body>
+</html>

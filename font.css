@@ -1,0 +1,60 @@
+
+.face{
+    height:50px;
+    overflow: hidden;
+    position: absolute;
+    width: 50px;
+}
+ 
+.top{
+    background:white;
+    border: 2px solid;
+    top: 1+px;
+    left: 89px;    
+    -webkit-transform: rotate(-45deg) skew(15deg, 15deg);
+    -moz-transform: rotate(-45deg) skew(15deg, 15deg);    
+}
+ 
+.left{
+    border: 2px solid;
+    top: 48px;
+    left: 66px;
+    background: white;
+    -webkit-transform: rotate(15deg) skew(15deg, 15deg);
+    -moz-transform: rotate(15deg) skew(15deg, 15deg);        
+}
+ 
+.right{
+    border: 2px solid;
+    top: 48px;
+    left: 112px;
+    background: white;
+    -webkit-transform: rotate(-15deg) skew(-15deg, -15deg);
+    -moz-transform: rotate(-15deg) skew(-15deg, -15deg);    
+}
+
+.top1{
+    background:white;
+    border: 2px solid;
+    left: 191px;    
+    -webkit-transform: rotate(-45deg) skew(15deg, 15deg);
+    -moz-transform: rotate(-45deg) skew(15deg, 15deg);    
+}
+ 
+.left1{
+    border: 2px solid;
+    top: 48px;
+    left: 168px;
+    background: white;
+    -webkit-transform: rotate(15deg) skew(15deg, 15deg);
+    -moz-transform: rotate(15deg) skew(15deg, 15deg);        
+}
+ 
+.right1{
+    border: 2px solid;
+    top: 48px;
+    left: 214px;
+    background: white;
+    -webkit-transform: rotate(-15deg) skew(-15deg, -15deg);
+    -moz-transform: rotate(-15deg) skew(-15deg, -15deg);    
+}
