@@ -2687,3 +2687,45 @@ z-index:1000;
     top: 572px;
     left:853px;
 }
+.box25 {
+    width: 46px;
+    height:48px;
+    position: absolute;
+    background-color:pink;
+    top: 72px;
+    left:453px;
+    z-index:1;
+}
+
+.box26 {
+    width: 46px;
+    height:48px;
+    background-color: pink;
+    position: absolute;
+    top: 72px;
+    left:553px;
+}
+.box27 {
+    width: 46px;
+    height:48px;
+    background-color: pink;
+    position: absolute;
+    top: 72px;
+    left:653px;
+}
+.box28 {
+    width: 46px;
+    height:48px;
+    background-color: pink;
+    position: absolute;
+    top: 72px;
+    left:753px;
+}
+.box29 {
+    width: 46px;
+    height:48px;
+    background-color: pink;
+    position: absolute;
+    top: 72px;
+    left:853px;
+}
