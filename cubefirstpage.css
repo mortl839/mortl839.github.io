@@ -1,4 +1,6 @@
-
+.wrapper2 {
+  display:none;
+}
 .fronttop {
 width: 50px;
 background-color: black;
