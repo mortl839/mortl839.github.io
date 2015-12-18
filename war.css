@@ -1,0 +1,46 @@
+html { 
+  background: url(wood.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.paper {
+  width: 500px;
+  height: 600px;
+  background-color:white;
+  position:absolute;
+  top: 50px;
+  left:450px;
+  font-family:courier;
+}
+.title { 
+  width: 300px;
+  height: 50px;
+  top: 150px;
+  left: 90px;
+  position:absolute;
+}
+.poem {
+  width: 300px;
+  height: 200px;
+  top: 200px;
+  left: 90px;
+  position:absolute;
+}
+
+.coins {
+  position: absolute;
+  top: 500px;
+  left: 100px;
+             -ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Safari */
+    transform: rotate(-20deg);
+}
+
+.white {
+  position: absolute;
+  top:50px;
+  left:1050px;
+             -ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Safari */
+    transform: rotate(20deg);
+}
